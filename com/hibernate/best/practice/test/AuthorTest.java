@@ -29,7 +29,6 @@ class AuthorTest {
         );
 
     }
-
     @Test
     void addBook() {
         books.forEach(author::addBook);
